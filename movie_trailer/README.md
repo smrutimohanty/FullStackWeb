@@ -10,7 +10,7 @@ This folder needs to be downloaded and the directory structure should be mainted
 
 ```
 -FullStackWeb
-    -movies_trailer
+    -movie_trailer
         --entertainment_center
         --fresh_tomatoes.py
         --media.py
