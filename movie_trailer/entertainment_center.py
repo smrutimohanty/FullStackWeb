@@ -1,5 +1,4 @@
-from SmrutiMohantyRepo.FullStackWeb.movies_trailer import media , fresh_tomatoes
-
+from FullStackWeb.movie_trailer import media , fresh_tomatoes
 
 """
 Toy Story Movie Details
