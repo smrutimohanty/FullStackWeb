@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Smruti's Profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    /* Popover */
+    .popover {
+        border: 2px dotted red;
+        min-width:200px;
+    }
+    /* Popover Header */
+    .popover-title {
+        background-color: #73AD21; 
+        color: #FFFFFF; 
+        font-size: 28px;
+        text-align:center;
+    }
+    /* Popover Body */
+    .popover-content {
+        background-color: coral;
+        color: #FFFFFF;
+        padding: 25px;
+              
+    }
+    /* Popover Arrow */
+    .arrow {
+        border-right-color: red !important;
+     }
+     .jumbotron{
+       background: url("http://hd.wallpaperswide.com/thumbs/computer_engineer-t2.jpg") no-repeat center center;
+       -webkit-background-size: 100% 100%;
+       -moz-background-size: 100% 100%;
+       -o-background-size: 100% 100%;
+       background-size: 100% 100%;
+     }
+     .intro{
+       color:white;
+     }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <!--<li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>-->
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <!--<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center intro">
+    <h1 >Smruti Prakash Mohanty</h1>      
+    <p >Software Artist</p>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3>Palette</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <a href="#" data-toggle="popover" title="VIRTUALIZATION" data-html="true" data-content="- 3 Years Experience. <br/> - Datcenter. <br/> - Storage. <br/> - Network.">Virtualization</a>
+      <img src="https://i2.wp.com/www.rcrwireless.com/wp-content/uploads/2016/07/27494129_l.jpg?fit=2750%2C1525&ssl=1" class="img-responsive" style="width:100%" alt="Image">
+      <!--<button type="button" class="btn btn-info">Virtualization</button>-->
+    </div>
+    <div class="col-sm-3"> 
+      <a href="#" data-toggle="popover" title="PYTHON" data-html="true" data-content="- 6 Years Experience. <br/> - 2.7 <br/> - 3.14">     Python     </a>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg" class="img-responsive" style="width:100%" alt="Image">      
+    </div>
+    <div class="col-sm-3"> 
+      <a href="#" data-toggle="popover" title="JAVA" data-html="true" data-content="- 8 Years Experience. <br/> - Core <br/> - Collection <br/> - Design Pattern">Java</a>
+      <img src="http://www.itexchangeweb.com/blog/wp-content/uploads/2015/04/Interesting-Facts-About-Streams-in-Core-Java-Technology_1254x559_acf_cropped.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <a href="#" data-toggle="popover" title="Database" data-html="true" data-content="- 10 Years Experience. <br/> - Oracle <br/> - Postgress <br/> - My SQL <br/> -Non Stop">Database</a>
+      <img src="http://www.worxs.net/wp-content/uploads/2016/12/Database-Management.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <a href="#" data-toggle="popover" title="Project Management" data-html="true" data-content="- Team Lead. <br/> - Requirement Analysis <br/> - Project Planning <br/> -Project Delivery">Project Management</a>
+      <img src="http://www.southalabama.edu/departments/research/images/Project%20Mgt.jpg " class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <a href="#" data-toggle="popover" title="SDET" data-html="true" data-content="- 10 Years Experience. <br/> - Unit Testing <br/> - Functional Testing <br/> - System Testing <br/> - UAT ">SDET</a>
+      <img src="http://www.360logica.com/blog/wp-content/uploads/2014/05/Relevance-of-Test-Coverage-in-Software-Testing.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <a href="#" data-toggle="popover" title="DevOps" data-html="true" data-content="- 2 Years Experience. <br/> - Build <br/> - Automate <br/> - Deploy"> DEVOps </a>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <a href="#" data-toggle="popover" title="Web Developer" data-html="true" data-content="- 0.1 Years Experience. <br/> - Learning <br/> - Implementing <br/> - Evolving"> WEB  </a>
+      <img src="http://www.nestsoft.com/images/services/web-developments.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">  
+  <p><span class="glyphicon glyphicon-envelope"> er.smruti at gmail dot com </span></p>
+</footer>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>
+
+</body>
+</html>
