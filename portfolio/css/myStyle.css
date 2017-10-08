@@ -1,0 +1,47 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+margin-bottom: 0;
+border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+background-color: #f2f2f2;
+padding: 25px;
+}
+/* Popover */
+.popover {
+  border: 2px dotted red;
+  min-width:200px;
+}
+/* Popover Header */
+.popover-title {
+  background-color: #73AD21; 
+  color: #FFFFFF; 
+  font-size: 28px;
+  text-align:center;
+}
+/* Popover Body */
+.popover-content {
+  background-color: coral;
+  color: #FFFFFF;
+  padding: 25px;
+        
+}
+/* Popover Arrow */
+.arrow {
+  border-right-color: red !important;
+}
+.jumbotron{
+  background: url("http://hd.wallpaperswide.com/thumbs/computer_engineer-t2.jpg") no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.intro{
+  color:white;
+}
+.imgStyle{
+  width:100%;
+}
