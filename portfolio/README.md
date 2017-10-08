@@ -6,7 +6,7 @@
 
 ```
 portfolio
-  --style
+  --css
     -myStyle.css
   -Smruti_Portfolio.html
   
